@@ -1,0 +1,605 @@
+TPGSampleApp
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/Info.plist PGSampleApp/PGSampleApp-Info.plist
+cPhaseScriptExecution "Copy www directory" /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/Script-304B58A110DAC018002A0835.sh
+cCpResource PGSampleApp/config.xml build/PGSampleApp.app/config.xml
+cCpResource PGSampleApp/Resources/icons/icon-72.png build/PGSampleApp.app/icon-72.png
+cCpResource PGSampleApp/Resources/icons/icon.png build/PGSampleApp.app/icon.png
+cCpResource PGSampleApp/Resources/icons/icon@2x.png build/PGSampleApp.app/icon@2x.png
+cCpResource PGSampleApp/Resources/Capture.bundle build/PGSampleApp.app/Capture.bundle
+cCopyStringsFile /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/en.lproj/Localizable.strings PGSampleApp/Resources/en.lproj/Localizable.strings
+cCopyStringsFile /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/es.lproj/Localizable.strings PGSampleApp/Resources/es.lproj/Localizable.strings
+cCompileXIB /Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Classes/MainViewController.xib
+cCopyStringsFile /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/de.lproj/Localizable.strings PGSampleApp/Resources/de.lproj/Localizable.strings
+cCopyStringsFile /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/se.lproj/Localizable.strings PGSampleApp/Resources/se.lproj/Localizable.strings
+cCpResource PGSampleApp/Resources/splash/Default-Landscape@2x~ipad.png build/PGSampleApp.app/Default-Landscape@2x~ipad.png
+cCpResource PGSampleApp/Resources/splash/Default-Portrait@2x~ipad.png build/PGSampleApp.app/Default-Portrait@2x~ipad.png
+cCpResource PGSampleApp/Resources/splash/Default-Landscape~ipad.png build/PGSampleApp.app/Default-Landscape~ipad.png
+cCpResource PGSampleApp/Resources/splash/Default-Portrait~ipad.png build/PGSampleApp.app/Default-Portrait~ipad.png
+cCpResource PGSampleApp/Resources/splash/Default@2x~iphone.png build/PGSampleApp.app/Default@2x~iphone.png
+cCpResource PGSampleApp/Resources/splash/Default~iphone.png build/PGSampleApp.app/Default~iphone.png
+cCpResource PGSampleApp/Resources/splash/Default-568h@2x~iphone.png build/PGSampleApp.app/Default-568h@2x~iphone.png
+cProcessPCH /var/folders/g0/jvj1ndzs0153wvqsfbbplq7h0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/PGSampleApp-Prefix-asmrivofsmxqlwejmknyugticdzo/PGSampleApp-Prefix.pch.pth PGSampleApp/PGSampleApp-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/Objects-normal/i386/main.o /Users/sjaini/Desktop/PGSampleApp/PGSampleApp/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/Objects-normal/i386/MainViewController.o /Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/Objects-normal/i386/AppDelegate.o /Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/PGSampleApp normal i386
+cGenerateDSYMFile /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app.dSYM /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/PGSampleApp
+cTouch /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c000000005102E2D30000000000000110
+t1359143635
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c00000000510A0B2E00000000001EB540
+t1359612718
+s2012480
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c00000000510A0B2E00000000000C1030
+t1359612718
+s790576
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c00000000510A0B2E0000000000193640
+t1359612718
+s1652288
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c00000000510A0B2E00000000000226E0
+t1359612718
+s141024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c00000000510A0B2E00000000003D4DF0
+t1359612718
+s4017648
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c00000000510A0B2E0000000000215DB0
+t1359612718
+s2186672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000510A0B2E0000000000228FE0
+t1359612718
+s2265056
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c00000000510A0B2E000000000009C590
+t1359612718
+s640400
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c00000000510A0B2E0000000000085620
+t1359612718
+s546336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000510A0B3000000000003DDFA0
+t1359612720
+s4054944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c00000000510A0B3100000000002DBA50
+t1359612721
+s2996816
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c00000000510A0B3200000000000BCC20
+t1359612722
+s773152
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c00000000510A0B3200000000001D5750
+t1359612722
+s1922896
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c00000000510A0B33000000000006CC50
+t1359612723
+s445520
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000510A0B340000000000AB6230
+t1359612724
+s11231792
+
+N/Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Classes/AppDelegate.m
+c00000000513908B8000000000000122E
+t1362692280
+s4654
+
+N/Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Classes/MainViewController.m
+c00000000513908B8000000000000126C
+t1362692280
+s4716
+
+N/Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Classes/MainViewController.xib
+c00000000513908B80000000000001759
+t1362692280
+s5977
+
+N/Users/sjaini/Desktop/PGSampleApp/PGSampleApp/PGSampleApp-Prefix.pch
+c00000000513908B800000000000003C7
+t1362692280
+s967
+
+N/Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Resources/Capture.bundle
+c00000000513908B8000000000000030E
+t1362692280
+s782
+
+N/Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Resources/de.lproj/Localizable.strings
+c00000000513908B80000000000000485
+t1362692280
+s1157
+
+N/Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Resources/en.lproj/Localizable.strings
+c00000000513908B80000000000000470
+t1362692280
+s1136
+
+N/Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Resources/es.lproj/Localizable.strings
+c00000000513908B8000000000000047D
+t1362692280
+s1149
+
+N/Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Resources/icons/icon-72.png
+c00000000513908B80000000000001350
+t1362692280
+s4944
+
+N/Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Resources/icons/icon.png
+c00000000513908B80000000000000F3E
+t1362692280
+s3902
+
+N/Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Resources/icons/icon@2x.png
+c00000000513908B80000000000001EBD
+t1362692280
+s7869
+
+N/Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Resources/se.lproj/Localizable.strings
+c00000000513908B80000000000000471
+t1362692280
+s1137
+
+N/Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Resources/splash/Default-568h@2x~iphone.png
+c00000000513908B800000000000074F8
+t1362692280
+s29944
+
+N/Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Resources/splash/Default-Landscape@2x~ipad.png
+c00000000513908B80000000000012735
+t1362692280
+s75573
+
+N/Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Resources/splash/Default-Landscape~ipad.png
+c00000000513908B8000000000000817B
+t1362692280
+s33147
+
+N/Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Resources/splash/Default-Portrait@2x~ipad.png
+c00000000513908B80000000000012171
+t1362692280
+s74097
+
+N/Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Resources/splash/Default-Portrait~ipad.png
+c00000000513908B80000000000007F9A
+t1362692280
+s32666
+
+N/Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Resources/splash/Default@2x~iphone.png
+c00000000513908B80000000000007323
+t1362692280
+s29475
+
+N/Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Resources/splash/Default~iphone.png
+c00000000513908B8000000000000289A
+t1362692280
+s10394
+
+N/Users/sjaini/Desktop/PGSampleApp/PGSampleApp/config.xml
+c00000000513908B80000000000000B13
+t1362692280
+s2835
+
+N/Users/sjaini/Desktop/PGSampleApp/PGSampleApp/main.m
+c00000000513908B8000000000000045D
+t1362692280
+s1117
+
+N/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app
+t2
+s0
+
+N/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app.dSYM
+t2
+s0
+
+N/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/Capture.bundle
+t2
+s0
+
+N/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/Default-568h@2x~iphone.png
+t2
+s0
+
+N/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/Default-Landscape@2x~ipad.png
+t2
+s0
+
+N/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/Default-Landscape~ipad.png
+t2
+s0
+
+N/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/Default-Portrait@2x~ipad.png
+t2
+s0
+
+N/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/Default-Portrait~ipad.png
+t2
+s0
+
+N/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/Default@2x~iphone.png
+t2
+s0
+
+N/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/Default~iphone.png
+t2
+s0
+
+N/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/Info.plist
+t2
+s0
+
+N/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/MainViewController.nib
+t2
+s0
+
+N/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/PGSampleApp
+t2
+s0
+
+N/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/PkgInfo
+t2
+s0
+
+N/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/config.xml
+t2
+s0
+
+N/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/de.lproj/Localizable.strings
+t2
+s0
+
+N/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/en.lproj/Localizable.strings
+t2
+s0
+
+N/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/es.lproj/Localizable.strings
+t2
+s0
+
+N/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/icon-72.png
+t2
+s0
+
+N/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/icon.png
+t2
+s0
+
+N/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/icon@2x.png
+t2
+s0
+
+N/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/se.lproj/Localizable.strings
+t2
+s0
+
+N/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/Objects-normal/i386/MainViewController.o
+t2
+s0
+
+N/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/Objects-normal/i386/PGSampleApp.LinkFileList
+c0000000051399815000000000000018C
+t1362728981
+s396
+
+N/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/Script-304B58A110DAC018002A0835.sh
+c0000000051399815000000000000042B
+t1362728981
+s1067
+
+N/Users/sjaini/Desktop/PGSampleApp/build/libCordova.a
+c00000000513998150000000000348480
+t1362728981
+s3441792
+
+N/var/folders/g0/jvj1ndzs0153wvqsfbbplq7h0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/PGSampleApp-Prefix-asmrivofsmxqlwejmknyugticdzo/PGSampleApp-Prefix.pch.pth
+t2
+s0
+
+NPGSampleApp/PGSampleApp-Info.plist
+c00000000513908B800000000000009D3
+t1362692280
+s2515
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesa6bac495cfe9b641^ecdac695cfe9b641^---0#1#0#--18"Check dependencies36"DE5C733A-E3AC-4DF9-B97B-FF16737AC729-
+
+CCompileC build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/Objects-normal/i386/AppDelegate.o /Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s384421785.126519
+e384421785.203112
+r1
+xCompileC
+xbuild/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/Objects-normal/i386/AppDelegate.o
+x/Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Classes/AppDelegate.m:68:25: warning: 'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property. [-Wdeprecated-declarations]
+o    self.viewController.useSplashScreen = YES;
+o                        ^
+o/Users/sjaini/Desktop/PGSampleApp/build/include/Cordova/CDVViewController.h:47:47: note: 'useSplashScreen' declared here
+o@property (nonatomic, readwrite, assign) BOOL useSplashScreen CDV_DEPRECATED(2.5, "Add/Remove the SplashScreen plugin instead of setting this property.");
+o                                              ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Classes/AppDelegate.mfbae2099cfe9b641^acff3399cfe9b641^-659"/Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Classes/AppDelegate.m:68:25: warning: 'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property. [-Wdeprecated-declarations]    self.viewController.useSplashScreen = YES;                        ^/Users/sjaini/Desktop/PGSampleApp/build/include/Cordova/CDVViewController.h:47:47: note: 'useSplashScreen' declared here@property (nonatomic, readwrite, assign) BOOL useSplashScreen CDV_DEPRECATED(2.5, "Add/Remove the SplashScreen plugin instead of setting this property.");                                              ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@128"'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property.-384421785#18446744073709551615#0#1(2@31"'useSplashScreen' declared here-384421785#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@88"file://localhost/Users/sjaini/Desktop/PGSampleApp/CordovaLib/Classes/CDVViewController.h0000000000000000^46#46#46#46#1832#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@83"file://localhost/Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Classes/AppDelegate.m0000000000000000^67#24#67#24#2268#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@83"file://localhost/Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Classes/AppDelegate.m0000000000000000^3572"CompileC build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/Objects-normal/i386/AppDelegate.o PGSampleApp/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sjaini/Desktop/PGSampleApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/share:/usr/local/mysql/bin:/usr/local/git/bin/git:/Users/sjaini/bin:/opt/local:/Applications/Xcode.app/Contents/Developer/usr/bin/:/usr/bin/pear/bin:/Users/sjaini/pear/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/PGSampleApp-generated-files.hmap -I/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/PGSampleApp-own-target-headers.hmap -I/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/PGSampleApp-all-target-headers.hmap -iquote /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/PGSampleApp-project-headers.hmap -I/Users/sjaini/Desktop/PGSampleApp/build/include -I/Users/sjaini/Desktop/PGSampleApp/build/usr/local/lib/include -I/Users/sjaini/Desktop/PGSampleApp/build/UninstalledProducts/include -I/Users/sjaini/Desktop/PGSampleApp/build -I/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/DerivedSources/i386 -I/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/DerivedSources -F/Users/sjaini/Desktop/PGSampleApp/build -include /var/folders/g0/jvj1ndzs0153wvqsfbbplq7h0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/PGSampleApp-Prefix-asmrivofsmxqlwejmknyugticdzo/PGSampleApp-Prefix.pch -MMD -MT dependencies -MF /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/Objects-normal/i386/AppDelegate.dia -c /Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Classes/AppDelegate.m -o /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/Objects-normal/i386/AppDelegate.o36"9ABF3A66-B9E1-495F-8D51-C775F93BFF5C-
+
+CCompileC build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/Objects-normal/i386/MainViewController.o /Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s384421785.126530
+e384421785.193942
+r1
+xCompileC
+xbuild/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/Objects-normal/i386/MainViewController.o
+x/Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Classes/MainViewController.m60ab2099cfe9b641^caa53199cfe9b641^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Classes/MainViewController.m0000000000000000^3614"CompileC build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/Objects-normal/i386/MainViewController.o PGSampleApp/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sjaini/Desktop/PGSampleApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/share:/usr/local/mysql/bin:/usr/local/git/bin/git:/Users/sjaini/bin:/opt/local:/Applications/Xcode.app/Contents/Developer/usr/bin/:/usr/bin/pear/bin:/Users/sjaini/pear/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/PGSampleApp-generated-files.hmap -I/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/PGSampleApp-own-target-headers.hmap -I/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/PGSampleApp-all-target-headers.hmap -iquote /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/PGSampleApp-project-headers.hmap -I/Users/sjaini/Desktop/PGSampleApp/build/include -I/Users/sjaini/Desktop/PGSampleApp/build/usr/local/lib/include -I/Users/sjaini/Desktop/PGSampleApp/build/UninstalledProducts/include -I/Users/sjaini/Desktop/PGSampleApp/build -I/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/DerivedSources/i386 -I/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/DerivedSources -F/Users/sjaini/Desktop/PGSampleApp/build -include /var/folders/g0/jvj1ndzs0153wvqsfbbplq7h0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/PGSampleApp-Prefix-asmrivofsmxqlwejmknyugticdzo/PGSampleApp-Prefix.pch -MMD -MT dependencies -MF /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/Objects-normal/i386/MainViewController.dia -c /Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Classes/MainViewController.m -o /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/Objects-normal/i386/MainViewController.o36"53711B3B-5F02-4CE1-BE7D-C217D4B323FF-
+
+CCompileC build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/Objects-normal/i386/main.o /Users/sjaini/Desktop/PGSampleApp/PGSampleApp/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s384421785.126498
+e384421785.163987
+r1
+xCompileC
+xbuild/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/Objects-normal/i386/main.o
+x/Users/sjaini/Desktop/PGSampleApp/PGSampleApp/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/sjaini/Desktop/PGSampleApp/PGSampleApp/main.mf7ab2099cfe9b641^b9fa2999cfe9b641^---0#0#0#-19%DVTDocumentLocation2@68"file://localhost/Users/sjaini/Desktop/PGSampleApp/PGSampleApp/main.m0000000000000000^3514"CompileC build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/Objects-normal/i386/main.o PGSampleApp/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sjaini/Desktop/PGSampleApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/share:/usr/local/mysql/bin:/usr/local/git/bin/git:/Users/sjaini/bin:/opt/local:/Applications/Xcode.app/Contents/Developer/usr/bin/:/usr/bin/pear/bin:/Users/sjaini/pear/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/PGSampleApp-generated-files.hmap -I/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/PGSampleApp-own-target-headers.hmap -I/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/PGSampleApp-all-target-headers.hmap -iquote /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/PGSampleApp-project-headers.hmap -I/Users/sjaini/Desktop/PGSampleApp/build/include -I/Users/sjaini/Desktop/PGSampleApp/build/usr/local/lib/include -I/Users/sjaini/Desktop/PGSampleApp/build/UninstalledProducts/include -I/Users/sjaini/Desktop/PGSampleApp/build -I/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/DerivedSources/i386 -I/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/DerivedSources -F/Users/sjaini/Desktop/PGSampleApp/build -include /var/folders/g0/jvj1ndzs0153wvqsfbbplq7h0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/PGSampleApp-Prefix-asmrivofsmxqlwejmknyugticdzo/PGSampleApp-Prefix.pch -MMD -MT dependencies -MF /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/Objects-normal/i386/main.dia -c /Users/sjaini/Desktop/PGSampleApp/PGSampleApp/main.m -o /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/Objects-normal/i386/main.o36"DD9D590F-B9D0-4838-8364-D1F8A45F5DB0-
+
+CCompileXIB /Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Classes/MainViewController.xib
+s384421781.889435
+e384421784.852965
+r1
+xCompileXIB
+x/Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Classes/MainViewController.xib
+o2013-03-07 23:49:44.459 Interface Builder Cocoa Touch Tool[45091:f07] CFPreferences: user home directory at file://localhost/Users/sjaini/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compiling /Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Classes/MainViewController.xibfcc6e395cfe9b641^295dda98cfe9b641^-239"2013-03-07 23:49:44.459 Interface Builder Cocoa Touch Tool[45091:f07] CFPreferences: user home directory at file://localhost/Users/sjaini/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Classes/MainViewController.xib0000000000000000^1113"CompileXIB PGSampleApp/Classes/MainViewController.xib    cd /Users/sjaini/Desktop/PGSampleApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/share:/usr/local/mysql/bin:/usr/local/git/bin/git:/Users/sjaini/bin:/opt/local:/Applications/Xcode.app/Contents/Developer/usr/bin/:/usr/bin/pear/bin:/Users/sjaini/pear/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/MainViewController.nib /Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Classes/MainViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk36"52476A56-3C50-4356-9AE8-ACF38C657CEE-
+
+CCopyStringsFile /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/de.lproj/Localizable.strings PGSampleApp/Resources/de.lproj/Localizable.strings
+s384421781.895154
+e384421781.942031
+r1
+xCopyStringsFile
+x/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/de.lproj/Localizable.strings
+xPGSampleApp/Resources/de.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy PGSampleApp/Resources/de.lproj/Localizable.stringsda39e595cfe9b641^d028f195cfe9b641^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Resources/de.lproj/Localizable.strings0000000000000000^786"CopyStringsFile build/PGSampleApp.app/de.lproj/Localizable.strings PGSampleApp/Resources/de.lproj/Localizable.strings    cd /Users/sjaini/Desktop/PGSampleApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/share:/usr/local/mysql/bin:/usr/local/git/bin/git:/Users/sjaini/bin:/opt/local:/Applications/Xcode.app/Contents/Developer/usr/bin/:/usr/bin/pear/bin:/Users/sjaini/pear/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/de.lproj -- PGSampleApp/Resources/de.lproj/Localizable.strings36"21F65F0E-54EE-4E71-95D6-A5997F95B96B-
+
+CCopyStringsFile /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/en.lproj/Localizable.strings PGSampleApp/Resources/en.lproj/Localizable.strings
+s384421781.889179
+e384421781.942154
+r1
+xCopyStringsFile
+x/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/en.lproj/Localizable.strings
+xPGSampleApp/Resources/en.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy PGSampleApp/Resources/en.lproj/Localizable.strings66bee395cfe9b641^e030f195cfe9b641^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Resources/en.lproj/Localizable.strings0000000000000000^786"CopyStringsFile build/PGSampleApp.app/en.lproj/Localizable.strings PGSampleApp/Resources/en.lproj/Localizable.strings    cd /Users/sjaini/Desktop/PGSampleApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/share:/usr/local/mysql/bin:/usr/local/git/bin/git:/Users/sjaini/bin:/opt/local:/Applications/Xcode.app/Contents/Developer/usr/bin/:/usr/bin/pear/bin:/Users/sjaini/pear/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/en.lproj -- PGSampleApp/Resources/en.lproj/Localizable.strings36"2221FB03-8CF7-46E1-A74B-0DF056767D7B-
+
+CCopyStringsFile /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/es.lproj/Localizable.strings PGSampleApp/Resources/es.lproj/Localizable.strings
+s384421781.889191
+e384421781.942877
+r1
+xCopyStringsFile
+x/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/es.lproj/Localizable.strings
+xPGSampleApp/Resources/es.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy PGSampleApp/Resources/es.lproj/Localizable.strings4dbce395cfe9b641^8d62f195cfe9b641^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Resources/es.lproj/Localizable.strings0000000000000000^786"CopyStringsFile build/PGSampleApp.app/es.lproj/Localizable.strings PGSampleApp/Resources/es.lproj/Localizable.strings    cd /Users/sjaini/Desktop/PGSampleApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/share:/usr/local/mysql/bin:/usr/local/git/bin/git:/Users/sjaini/bin:/opt/local:/Applications/Xcode.app/Contents/Developer/usr/bin/:/usr/bin/pear/bin:/Users/sjaini/pear/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/es.lproj -- PGSampleApp/Resources/es.lproj/Localizable.strings36"F260CD9F-2E74-4919-9740-F00BC16C9B77-
+
+CCopyStringsFile /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/se.lproj/Localizable.strings PGSampleApp/Resources/se.lproj/Localizable.strings
+s384421781.897912
+e384421781.944026
+r1
+xCopyStringsFile
+x/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/se.lproj/Localizable.strings
+xPGSampleApp/Resources/se.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy PGSampleApp/Resources/se.lproj/Localizable.stringsb3ece595cfe9b641^c1abf195cfe9b641^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Resources/se.lproj/Localizable.strings0000000000000000^786"CopyStringsFile build/PGSampleApp.app/se.lproj/Localizable.strings PGSampleApp/Resources/se.lproj/Localizable.strings    cd /Users/sjaini/Desktop/PGSampleApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/share:/usr/local/mysql/bin:/usr/local/git/bin/git:/Users/sjaini/bin:/opt/local:/Applications/Xcode.app/Contents/Developer/usr/bin/:/usr/bin/pear/bin:/Users/sjaini/pear/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/se.lproj -- PGSampleApp/Resources/se.lproj/Localizable.strings36"3A34C169-5FF6-4593-A53C-CDDF71797C11-
+
+CCpResource PGSampleApp/Resources/Capture.bundle build/PGSampleApp.app/Capture.bundle
+s384421781.889159
+e384421782.079798
+r1
+xCpResource
+xPGSampleApp/Resources/Capture.bundle
+xbuild/PGSampleApp.app/Capture.bundle
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy build/PGSampleApp.app/Capture.bundle4ab5e395cfe9b641^e76d1496cfe9b641^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/Capture.bundle000000000080d041^783"CpResource PGSampleApp/Resources/Capture.bundle build/PGSampleApp.app/Capture.bundle    cd /Users/sjaini/Desktop/PGSampleApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/share:/usr/local/mysql/bin:/usr/local/git/bin/git:/Users/sjaini/bin:/opt/local:/Applications/Xcode.app/Contents/Developer/usr/bin/:/usr/bin/pear/bin:/Users/sjaini/pear/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Resources/Capture.bundle /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app36"84F63711-00FB-4F4A-ABE2-C28FD8925D0B-
+
+CCpResource PGSampleApp/Resources/icons/icon-72.png build/PGSampleApp.app/icon-72.png
+s384421781.889083
+e384421781.907477
+r1
+xCpResource
+xPGSampleApp/Resources/icons/icon-72.png
+xbuild/PGSampleApp.app/icon-72.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Copy build/PGSampleApp.app/icon-72.png79aee395cfe9b641^1e52e895cfe9b641^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/icon-72.png000000000080d041^786"CpResource PGSampleApp/Resources/icons/icon-72.png build/PGSampleApp.app/icon-72.png    cd /Users/sjaini/Desktop/PGSampleApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/share:/usr/local/mysql/bin:/usr/local/git/bin/git:/Users/sjaini/bin:/opt/local:/Applications/Xcode.app/Contents/Developer/usr/bin/:/usr/bin/pear/bin:/Users/sjaini/pear/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Resources/icons/icon-72.png /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app36"3C7BCBA5-1F21-4E3A-B958-0986EE0A1DEE-
+
+CCpResource PGSampleApp/Resources/icons/icon.png build/PGSampleApp.app/icon.png
+s384421781.889109
+e384421781.894022
+r1
+xCpResource
+xPGSampleApp/Resources/icons/icon.png
+xbuild/PGSampleApp.app/icon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Copy build/PGSampleApp.app/icon.png74b3e395cfe9b641^6edee495cfe9b641^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/icon.png000000000080d041^777"CpResource PGSampleApp/Resources/icons/icon.png build/PGSampleApp.app/icon.png    cd /Users/sjaini/Desktop/PGSampleApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/share:/usr/local/mysql/bin:/usr/local/git/bin/git:/Users/sjaini/bin:/opt/local:/Applications/Xcode.app/Contents/Developer/usr/bin/:/usr/bin/pear/bin:/Users/sjaini/pear/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Resources/icons/icon.png /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app36"FEE4DA8C-B05E-4866-A1B7-E2D8BD21F53A-
+
+CCpResource PGSampleApp/Resources/icons/icon@2x.png build/PGSampleApp.app/icon@2x.png
+s384421781.889150
+e384421781.896697
+r1
+xCpResource
+xPGSampleApp/Resources/icons/icon@2x.png
+xbuild/PGSampleApp.app/icon@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Copy build/PGSampleApp.app/icon@2x.pngccb6e395cfe9b641^438ee595cfe9b641^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/icon@2x.png000000000080d041^792"CpResource "PGSampleApp/Resources/icons/icon@2x.png" "build/PGSampleApp.app/icon@2x.png"    cd /Users/sjaini/Desktop/PGSampleApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/share:/usr/local/mysql/bin:/usr/local/git/bin/git:/Users/sjaini/bin:/opt/local:/Applications/Xcode.app/Contents/Developer/usr/bin/:/usr/bin/pear/bin:/Users/sjaini/pear/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Resources/icons/icon@2x.png" /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app36"E28F924E-153B-4D17-8161-54AAFBF24AA0-
+
+CCpResource PGSampleApp/Resources/splash/Default-568h@2x~iphone.png build/PGSampleApp.app/Default-568h@2x~iphone.png
+s384421781.918527
+e384421781.946470
+r1
+xCpResource
+xPGSampleApp/Resources/splash/Default-568h@2x~iphone.png
+xbuild/PGSampleApp.app/Default-568h@2x~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy build/PGSampleApp.app/Default-568h@2x~iphone.pngdb33eb95cfe9b641^0e4cf295cfe9b641^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/Default-568h@2x~iphone.png000000000080d041^839"CpResource "PGSampleApp/Resources/splash/Default-568h@2x~iphone.png" "build/PGSampleApp.app/Default-568h@2x~iphone.png"    cd /Users/sjaini/Desktop/PGSampleApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/share:/usr/local/mysql/bin:/usr/local/git/bin/git:/Users/sjaini/bin:/opt/local:/Applications/Xcode.app/Contents/Developer/usr/bin/:/usr/bin/pear/bin:/Users/sjaini/pear/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Resources/splash/Default-568h@2x~iphone.png" /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app36"8C186687-2AC6-4322-877E-1F499DC5331A-
+
+CCpResource PGSampleApp/Resources/splash/Default-Landscape@2x~ipad.png build/PGSampleApp.app/Default-Landscape@2x~ipad.png
+s384421781.908807
+e384421781.910561
+r1
+xCpResource
+xPGSampleApp/Resources/splash/Default-Landscape@2x~ipad.png
+xbuild/PGSampleApp.app/Default-Landscape@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/PGSampleApp.app/Default-Landscape@2x~ipad.png8db8e895cfe9b641^a81ae995cfe9b641^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/Default-Landscape@2x~ipad.png000000000080d041^848"CpResource "PGSampleApp/Resources/splash/Default-Landscape@2x~ipad.png" "build/PGSampleApp.app/Default-Landscape@2x~ipad.png"    cd /Users/sjaini/Desktop/PGSampleApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/share:/usr/local/mysql/bin:/usr/local/git/bin/git:/Users/sjaini/bin:/opt/local:/Applications/Xcode.app/Contents/Developer/usr/bin/:/usr/bin/pear/bin:/Users/sjaini/pear/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Resources/splash/Default-Landscape@2x~ipad.png" /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app36"E3947B2F-34D1-45D1-94AE-4349AA0B1233-
+
+CCpResource PGSampleApp/Resources/splash/Default-Landscape~ipad.png build/PGSampleApp.app/Default-Landscape~ipad.png
+s384421781.911151
+e384421781.914251
+r1
+xCpResource
+xPGSampleApp/Resources/splash/Default-Landscape~ipad.png
+xbuild/PGSampleApp.app/Default-Landscape~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy build/PGSampleApp.app/Default-Landscape~ipad.pngca50e995cfe9b641^6b0cea95cfe9b641^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/Default-Landscape~ipad.png000000000080d041^839"CpResource "PGSampleApp/Resources/splash/Default-Landscape~ipad.png" "build/PGSampleApp.app/Default-Landscape~ipad.png"    cd /Users/sjaini/Desktop/PGSampleApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/share:/usr/local/mysql/bin:/usr/local/git/bin/git:/Users/sjaini/bin:/opt/local:/Applications/Xcode.app/Contents/Developer/usr/bin/:/usr/bin/pear/bin:/Users/sjaini/pear/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Resources/splash/Default-Landscape~ipad.png" /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app36"678E4230-0169-47E7-86D5-D149A27C2629-
+
+CCpResource PGSampleApp/Resources/splash/Default-Portrait@2x~ipad.png build/PGSampleApp.app/Default-Portrait@2x~ipad.png
+s384421781.911147
+e384421781.913082
+r1
+xCpResource
+xPGSampleApp/Resources/splash/Default-Portrait@2x~ipad.png
+xbuild/PGSampleApp.app/Default-Portrait@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/PGSampleApp.app/Default-Portrait@2x~ipad.png3350e995cfe9b641^66c0e995cfe9b641^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/Default-Portrait@2x~ipad.png000000000080d041^845"CpResource "PGSampleApp/Resources/splash/Default-Portrait@2x~ipad.png" "build/PGSampleApp.app/Default-Portrait@2x~ipad.png"    cd /Users/sjaini/Desktop/PGSampleApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/share:/usr/local/mysql/bin:/usr/local/git/bin/git:/Users/sjaini/bin:/opt/local:/Applications/Xcode.app/Contents/Developer/usr/bin/:/usr/bin/pear/bin:/Users/sjaini/pear/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Resources/splash/Default-Portrait@2x~ipad.png" /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app36"070B9DEE-853F-452B-B83A-67D3D7ADB524-
+
+CCpResource PGSampleApp/Resources/splash/Default-Portrait~ipad.png build/PGSampleApp.app/Default-Portrait~ipad.png
+s384421781.914256
+e384421781.916013
+r1
+xCpResource
+xPGSampleApp/Resources/splash/Default-Portrait~ipad.png
+xbuild/PGSampleApp.app/Default-Portrait~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy build/PGSampleApp.app/Default-Portrait~ipad.png4c1bea95cfe9b641^c37fea95cfe9b641^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/Default-Portrait~ipad.png000000000080d041^836"CpResource "PGSampleApp/Resources/splash/Default-Portrait~ipad.png" "build/PGSampleApp.app/Default-Portrait~ipad.png"    cd /Users/sjaini/Desktop/PGSampleApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/share:/usr/local/mysql/bin:/usr/local/git/bin/git:/Users/sjaini/bin:/opt/local:/Applications/Xcode.app/Contents/Developer/usr/bin/:/usr/bin/pear/bin:/Users/sjaini/pear/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Resources/splash/Default-Portrait~ipad.png" /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app36"61FFD956-329E-4327-ABA8-BED4E757DD3C-
+
+CCpResource PGSampleApp/Resources/splash/Default@2x~iphone.png build/PGSampleApp.app/Default@2x~iphone.png
+s384421781.915448
+e384421781.917368
+r1
+xCpResource
+xPGSampleApp/Resources/splash/Default@2x~iphone.png
+xbuild/PGSampleApp.app/Default@2x~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy build/PGSampleApp.app/Default@2x~iphone.png4372ea95cfe9b641^80d8ea95cfe9b641^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/Default@2x~iphone.png000000000080d041^824"CpResource "PGSampleApp/Resources/splash/Default@2x~iphone.png" "build/PGSampleApp.app/Default@2x~iphone.png"    cd /Users/sjaini/Desktop/PGSampleApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/share:/usr/local/mysql/bin:/usr/local/git/bin/git:/Users/sjaini/bin:/opt/local:/Applications/Xcode.app/Contents/Developer/usr/bin/:/usr/bin/pear/bin:/Users/sjaini/pear/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Resources/splash/Default@2x~iphone.png" /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app36"2BB0E03C-9589-475B-8692-D7F5C6296FE3-
+
+CCpResource PGSampleApp/Resources/splash/Default~iphone.png build/PGSampleApp.app/Default~iphone.png
+s384421781.917161
+e384421781.918966
+r1
+xCpResource
+xPGSampleApp/Resources/splash/Default~iphone.png
+xbuild/PGSampleApp.app/Default~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy build/PGSampleApp.app/Default~iphone.png6addea95cfe9b641^3542eb95cfe9b641^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/Default~iphone.png000000000080d041^815"CpResource "PGSampleApp/Resources/splash/Default~iphone.png" "build/PGSampleApp.app/Default~iphone.png"    cd /Users/sjaini/Desktop/PGSampleApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/share:/usr/local/mysql/bin:/usr/local/git/bin/git:/Users/sjaini/bin:/opt/local:/Applications/Xcode.app/Contents/Developer/usr/bin/:/usr/bin/pear/bin:/Users/sjaini/pear/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/sjaini/Desktop/PGSampleApp/PGSampleApp/Resources/splash/Default~iphone.png" /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app36"8EF7CADA-51FD-4586-8EE7-2E5A2FE6D5C9-
+
+CCpResource PGSampleApp/config.xml build/PGSampleApp.app/config.xml
+s384421781.889077
+e384421781.909896
+r1
+xCpResource
+xPGSampleApp/config.xml
+xbuild/PGSampleApp.app/config.xml
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Copy build/PGSampleApp.app/config.xml14b2e395cfe9b641^03efe895cfe9b641^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/config.xml000000000080d041^751"CpResource PGSampleApp/config.xml build/PGSampleApp.app/config.xml    cd /Users/sjaini/Desktop/PGSampleApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/share:/usr/local/mysql/bin:/usr/local/git/bin/git:/Users/sjaini/bin:/opt/local:/Applications/Xcode.app/Contents/Developer/usr/bin/:/usr/bin/pear/bin:/Users/sjaini/pear/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sjaini/Desktop/PGSampleApp/PGSampleApp/config.xml /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app36"06C29FE6-4013-412F-BB19-428007478F5A-
+
+CGenerateDSYMFile /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app.dSYM /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/PGSampleApp
+s384421785.680668
+e384421785.795702
+r1
+xGenerateDSYMFile
+x/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app.dSYM
+x/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/PGSampleApp
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Generate /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app.dSYM0456ae99cfe9b641^eeb2cb99cfe9b641^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app.dSYM000000000080d041^769"GenerateDSYMFile build/PGSampleApp.app.dSYM build/PGSampleApp.app/PGSampleApp    cd /Users/sjaini/Desktop/PGSampleApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/share:/usr/local/mysql/bin:/usr/local/git/bin/git:/Users/sjaini/bin:/opt/local:/Applications/Xcode.app/Contents/Developer/usr/bin/:/usr/bin/pear/bin:/Users/sjaini/pear/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/PGSampleApp -o /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app.dSYM36"FE1F2E87-DA89-49E1-ABC3-3336F5399BBE-
+
+CLd /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/PGSampleApp normal i386
+s384421785.209950
+e384421785.673668
+r1
+xLd
+x/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/PGSampleApp
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Link /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/PGSampleApp97fe3599cfe9b641^9275ac99cfe9b641^---0#0#0#--1774"Ld build/PGSampleApp.app/PGSampleApp normal i386    cd /Users/sjaini/Desktop/PGSampleApp    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/share:/usr/local/mysql/bin:/usr/local/git/bin/git:/Users/sjaini/bin:/opt/local:/Applications/Xcode.app/Contents/Developer/usr/bin/:/usr/bin/pear/bin:/Users/sjaini/pear/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/sjaini/Desktop/PGSampleApp/build -F/Users/sjaini/Desktop/PGSampleApp/build -filelist /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/Objects-normal/i386/PGSampleApp.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.0 -framework AssetsLibrary /Users/sjaini/Desktop/PGSampleApp/build/libCordova.a -framework Foundation -weak_framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -framework AudioToolbox -weak_framework AVFoundation -framework CFNetwork -framework CoreLocation -framework MediaPlayer -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -weak_framework CoreMedia -o /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/PGSampleApp36"7040BC1D-7310-4CF8-B260-5C0B782A7FAD-
+
+CPhaseScriptExecution "Copy www directory" /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/Script-304B58A110DAC018002A0835.sh
+s384421781.794413
+e384421781.880986
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/Script-304B58A110DAC018002A0835.sh
+o
+oreal	0m0.070s
+ouser	0m0.015s
+osys	0m0.018s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'c157cc95cfe9b641^9c89e195cfe9b641^-42"real	0m0.070suser	0m0.015ssys	0m0.018s3(21%IDEActivityLogMessage2@14"real	0m0.070s-384421781#1#14#-0#-----2@14"user	0m0.015s-384421781#15#14#-0#-----2@13"sys	0m0.018s-384421781#29#13#-0#-----0#0#0#--20298"PhaseScriptExecution "Copy www directory" build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/Script-304B58A110DAC018002A0835.sh    cd /Users/sjaini/Desktop/PGSampleApp    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER sjaini    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/sjaini/Desktop/PGSampleApp/build    setenv BUILD_ROOT /Users/sjaini/Desktop/PGSampleApp/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/sjaini/Desktop/PGSampleApp/build    setenv CACHE_ROOT /var/folders/g0/jvj1ndzs0153wvqsfbbplq7h0000gp/C/com.apple.Xcode.502    setenv CCHROOT /var/folders/g0/jvj1ndzs0153wvqsfbbplq7h0000gp/C/com.apple.Xcode.502    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_ENABLE_OBJC_ARC NO    setenv CLANG_WARN_CONSTANT_CONVERSION YES    setenv CLANG_WARN_ENUM_CONVERSION YES    setenv CLANG_WARN_INT_CONVERSION YES    setenv CLANG_WARN__DUPLICATE_METHOD_MATCH YES    setenv CLASS_FILE_DIR /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/g0/jvj1ndzs0153wvqsfbbplq7h0000gp/C/com.apple.Xcode.502/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/sjaini/Desktop/PGSampleApp/build    setenv CONFIGURATION_TEMP_DIR /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH PGSampleApp.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH PGSampleApp.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/PGSampleApp.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME PGSampleApp.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/sjaini/Desktop/PGSampleApp/build    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH PGSampleApp.app/Executables    setenv EXECUTABLE_FOLDER_PATH PGSampleApp.app    setenv EXECUTABLE_NAME PGSampleApp    setenv EXECUTABLE_PATH PGSampleApp.app/PGSampleApp    setenv FILE_LIST /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH PGSampleApp.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/sjaini/Desktop/PGSampleApp/build\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME PGSampleApp.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER PGSampleApp/PGSampleApp-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNINITIALIZED_AUTOS YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/sjaini/Desktop/PGSampleApp/build/include\" \"/Users/sjaini/Desktop/PGSampleApp/build/usr/local/lib/include\" \"/Users/sjaini/Desktop/PGSampleApp/build/UninstalledProducts/include\" \"/Users/sjaini/Desktop/PGSampleApp/build\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE PGSampleApp/PGSampleApp-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH PGSampleApp.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH PGSampleApp.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/PGSampleApp.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER sjaini    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/PGSampleApp.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH PGSampleApp.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/PGSampleApp-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/sjaini/Desktop/PGSampleApp/build\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/Objects-normal/i386/PGSampleApp.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH PGSampleApp.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 12C60    setenv MAC_OS_X_VERSION_ACTUAL 1082    setenv MAC_OS_X_VERSION_MAJOR 1080    setenv MAC_OS_X_VERSION_MINOR 0802    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/Objects-normal    setenv OBJROOT /Users/sjaini/Desktop/PGSampleApp/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/opt/local/bin:/opt/local/sbin:/usr/share:/usr/local/mysql/bin:/usr/local/git/bin/git:/Users/sjaini/bin:/opt/local:/usr/bin/pear/bin:/Users/sjaini/pear/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH PGSampleApp.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/PkgInfo    setenv PKGINFO_PATH PGSampleApp.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_PRODUCT_BUILD_VERSION 10B141    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 60100    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH PGSampleApp.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH PGSampleApp.app/PrivateHeaders    setenv PRODUCT_NAME PGSampleApp    setenv PRODUCT_SETTINGS_PATH /Users/sjaini/Desktop/PGSampleApp/PGSampleApp/PGSampleApp-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT PGSampleApp    setenv PROJECT_DERIVED_FILE_DIR /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/DerivedSources    setenv PROJECT_DIR /Users/sjaini/Desktop/PGSampleApp    setenv PROJECT_FILE_PATH /Users/sjaini/Desktop/PGSampleApp/PGSampleApp.xcodeproj    setenv PROJECT_NAME PGSampleApp    setenv PROJECT_TEMP_DIR /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build    setenv PROJECT_TEMP_ROOT /Users/sjaini/Desktop/PGSampleApp/build    setenv PUBLIC_HEADERS_FOLDER_PATH PGSampleApp.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/sjaini/Desktop/PGSampleApp/build\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH PGSampleApp.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    setenv SDK_NAME iphonesimulator6.1    setenv SDK_PRODUCT_BUILD_VERSION 10B141    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/sjaini/Desktop/PGSampleApp/build/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH PGSampleApp.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/g0/jvj1ndzs0153wvqsfbbplq7h0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH PGSampleApp.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/sjaini/Desktop/PGSampleApp    setenv SRCROOT /Users/sjaini/Desktop/PGSampleApp    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/sjaini/Desktop/PGSampleApp/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME PGSampleApp    setenv TARGET_BUILD_DIR /Users/sjaini/Desktop/PGSampleApp/build    setenv TARGET_NAME PGSampleApp    setenv TARGET_TEMP_DIR /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build    setenv TEMP_DIR /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build    setenv TEMP_FILES_DIR /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build    setenv TEMP_FILE_DIR /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build    setenv TEMP_ROOT /Users/sjaini/Desktop/PGSampleApp/build    setenv TEST_AFTER_BUILD NO    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 502    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH PGSampleApp.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER sjaini    setenv USER_APPS_DIR /Users/sjaini/Applications    setenv USER_LIBRARY_DIR /Users/sjaini/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH PGSampleApp.app/version.plist    setenv VERSION_INFO_BUILDER sjaini    setenv VERSION_INFO_FILE PGSampleApp_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:PGSampleApp  PROJECT:PGSampleApp-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME PGSampleApp.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4H127    setenv XCODE_VERSION_ACTUAL 0460    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0460    setenv YACC yacc    /bin/sh -c /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/Script-304B58A110DAC018002A0835.sh36"CD0ED41A-2766-493F-8F4B-626DAC859ABE-
+
+CProcessInfoPlistFile /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/Info.plist PGSampleApp/PGSampleApp-Info.plist
+s384421781.782163
+e384421781.786671
+r1
+xProcessInfoPlistFile
+x/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/Info.plist
+xPGSampleApp/PGSampleApp-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Process PGSampleApp/PGSampleApp-Info.plist0d52c895cfe9b641^d864c995cfe9b641^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/sjaini/Desktop/PGSampleApp/PGSampleApp/PGSampleApp-Info.plist0000000000000000^820"ProcessInfoPlistFile build/PGSampleApp.app/Info.plist PGSampleApp/PGSampleApp-Info.plist    cd /Users/sjaini/Desktop/PGSampleApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/share:/usr/local/mysql/bin:/usr/local/git/bin/git:/Users/sjaini/bin:/opt/local:/Applications/Xcode.app/Contents/Developer/usr/bin/:/usr/bin/pear/bin:/Users/sjaini/pear/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-infoPlistUtility PGSampleApp/PGSampleApp-Info.plist -genpkginfo /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app/Info.plist36"29E3750B-F1A1-42F9-A41E-47ADE9F1DDFE-
+
+CProcessPCH /var/folders/g0/jvj1ndzs0153wvqsfbbplq7h0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/PGSampleApp-Prefix-asmrivofsmxqlwejmknyugticdzo/PGSampleApp-Prefix.pch.pth PGSampleApp/PGSampleApp-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s384421784.860903
+e384421785.119313
+r1
+xProcessPCH
+x/var/folders/g0/jvj1ndzs0153wvqsfbbplq7h0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/PGSampleApp-Prefix-asmrivofsmxqlwejmknyugticdzo/PGSampleApp-Prefix.pch.pth
+xPGSampleApp/PGSampleApp-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Precompile PGSampleApp/PGSampleApp-Prefix.pchbf7edc98cfe9b641^a48a1e99cfe9b641^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/sjaini/Desktop/PGSampleApp/PGSampleApp/PGSampleApp-Prefix.pch0000000000000000^3587"ProcessPCH /var/folders/g0/jvj1ndzs0153wvqsfbbplq7h0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/PGSampleApp-Prefix-asmrivofsmxqlwejmknyugticdzo/PGSampleApp-Prefix.pch.pth PGSampleApp/PGSampleApp-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sjaini/Desktop/PGSampleApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/share:/usr/local/mysql/bin:/usr/local/git/bin/git:/Users/sjaini/bin:/opt/local:/Applications/Xcode.app/Contents/Developer/usr/bin/:/usr/bin/pear/bin:/Users/sjaini/pear/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/PGSampleApp-generated-files.hmap -I/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/PGSampleApp-own-target-headers.hmap -I/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/PGSampleApp-all-target-headers.hmap -iquote /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/PGSampleApp-project-headers.hmap -I/Users/sjaini/Desktop/PGSampleApp/build/include -I/Users/sjaini/Desktop/PGSampleApp/build/usr/local/lib/include -I/Users/sjaini/Desktop/PGSampleApp/build/UninstalledProducts/include -I/Users/sjaini/Desktop/PGSampleApp/build -I/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/DerivedSources/i386 -I/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.build/Debug-iphonesimulator/PGSampleApp.build/DerivedSources -F/Users/sjaini/Desktop/PGSampleApp/build --serialize-diagnostics /var/folders/g0/jvj1ndzs0153wvqsfbbplq7h0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/PGSampleApp-Prefix-asmrivofsmxqlwejmknyugticdzo/PGSampleApp-Prefix.pch.dia -c /Users/sjaini/Desktop/PGSampleApp/PGSampleApp/PGSampleApp-Prefix.pch -o /var/folders/g0/jvj1ndzs0153wvqsfbbplq7h0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/PGSampleApp-Prefix-asmrivofsmxqlwejmknyugticdzo/PGSampleApp-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/g0/jvj1ndzs0153wvqsfbbplq7h0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/PGSampleApp-Prefix-asmrivofsmxqlwejmknyugticdzo/PGSampleApp-Prefix.pch.d36"ADDAF72A-72EF-453D-8AEB-55BE1065CD72-
+
+CTouch /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app
+s384421785.803949
+e384421785.808988
+r1
+xTouch
+x/Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Touch /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app6de1cd99cfe9b641^2a1acf99cfe9b641^---0#0#0#--565"Touch build/PGSampleApp.app    cd /Users/sjaini/Desktop/PGSampleApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/share:/usr/local/mysql/bin:/usr/local/git/bin/git:/Users/sjaini/bin:/opt/local:/Applications/Xcode.app/Contents/Developer/usr/bin/:/usr/bin/pear/bin:/Users/sjaini/pear/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /usr/bin/touch -c /Users/sjaini/Desktop/PGSampleApp/build/PGSampleApp.app36"642C7AF3-1AD6-44A7-B4AE-3D21DF949957-
+

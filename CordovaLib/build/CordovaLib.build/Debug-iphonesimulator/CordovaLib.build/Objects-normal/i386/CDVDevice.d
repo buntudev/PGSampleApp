@@ -1,0 +1,37 @@
+dependencies: \
+  /Users/sjaini/Desktop/PGSampleApp/CordovaLib/Classes/CDVDevice.m \
+  /Users/sjaini/Desktop/PGSampleApp/CordovaLib/Classes/CDV.h \
+  /Users/sjaini/Desktop/PGSampleApp/CordovaLib/Classes/CDVAvailability.h \
+  /Users/sjaini/Desktop/PGSampleApp/CordovaLib/Classes/CDVPlugin.h \
+  /Users/sjaini/Desktop/PGSampleApp/CordovaLib/Classes/CDVPluginResult.h \
+  /Users/sjaini/Desktop/PGSampleApp/CordovaLib/Classes/NSMutableArray+QueueAdditions.h \
+  /Users/sjaini/Desktop/PGSampleApp/CordovaLib/Classes/CDVCommandDelegate.h \
+  /Users/sjaini/Desktop/PGSampleApp/CordovaLib/Classes/CDVInvokedUrlCommand.h \
+  /Users/sjaini/Desktop/PGSampleApp/CordovaLib/Classes/CDVViewController.h \
+  /Users/sjaini/Desktop/PGSampleApp/CordovaLib/Classes/CDVWhitelist.h \
+  /Users/sjaini/Desktop/PGSampleApp/CordovaLib/Classes/CDVScreenOrientationDelegate.h \
+  /Users/sjaini/Desktop/PGSampleApp/CordovaLib/Classes/CDVURLProtocol.h \
+  /Users/sjaini/Desktop/PGSampleApp/CordovaLib/Classes/CDVAccelerometer.h \
+  /Users/sjaini/Desktop/PGSampleApp/CordovaLib/Classes/CDVBattery.h \
+  /Users/sjaini/Desktop/PGSampleApp/CordovaLib/Classes/CDVCamera.h \
+  /Users/sjaini/Desktop/PGSampleApp/CordovaLib/Classes/CDVCapture.h \
+  /Users/sjaini/Desktop/PGSampleApp/CordovaLib/Classes/CDVFile.h \
+  /Users/sjaini/Desktop/PGSampleApp/CordovaLib/Classes/CDVConnection.h \
+  /Users/sjaini/Desktop/PGSampleApp/CordovaLib/Classes/CDVReachability.h \
+  /Users/sjaini/Desktop/PGSampleApp/CordovaLib/Classes/CDVContact.h \
+  /Users/sjaini/Desktop/PGSampleApp/CordovaLib/Classes/CDVContacts.h \
+  /Users/sjaini/Desktop/PGSampleApp/CordovaLib/Classes/CDVDebug.h \
+  /Users/sjaini/Desktop/PGSampleApp/CordovaLib/Classes/CDVDebugConsole.h \
+  /Users/sjaini/Desktop/PGSampleApp/CordovaLib/Classes/CDVDevice.h \
+  /Users/sjaini/Desktop/PGSampleApp/CordovaLib/Classes/CDVFileTransfer.h \
+  /Users/sjaini/Desktop/PGSampleApp/CordovaLib/Classes/CDVLocation.h \
+  /Users/sjaini/Desktop/PGSampleApp/CordovaLib/Classes/CDVNotification.h \
+  /Users/sjaini/Desktop/PGSampleApp/CordovaLib/Classes/CDVSound.h \
+  /Users/sjaini/Desktop/PGSampleApp/CordovaLib/Classes/CDVSplashScreen.h \
+  /Users/sjaini/Desktop/PGSampleApp/CordovaLib/Classes/CDVLocalStorage.h \
+  /Users/sjaini/Desktop/PGSampleApp/CordovaLib/Classes/CDVInAppBrowser.h \
+  /Users/sjaini/Desktop/PGSampleApp/CordovaLib/Classes/NSArray+Comparisons.h \
+  /Users/sjaini/Desktop/PGSampleApp/CordovaLib/Classes/NSData+Base64.h \
+  /Users/sjaini/Desktop/PGSampleApp/CordovaLib/Classes/NSDictionary+Extensions.h \
+  /Users/sjaini/Desktop/PGSampleApp/CordovaLib/Classes/UIDevice+Extensions.h \
+  /Users/sjaini/Desktop/PGSampleApp/CordovaLib/Classes/CDVJSON.h
